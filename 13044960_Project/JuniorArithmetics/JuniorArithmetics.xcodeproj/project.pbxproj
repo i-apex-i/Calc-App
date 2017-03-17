@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CBE12E41E5B343B0095E1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE12E31E5B343B0095E1B1 /* AppDelegate.swift */; };
+		8CBE12E61E5B343B0095E1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE12E51E5B343B0095E1B1 /* ViewController.swift */; };
+		8CBE12E91E5B343B0095E1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE12E71E5B343B0095E1B1 /* Main.storyboard */; };
+		8CBE12EB1E5B343C0095E1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE12EA1E5B343C0095E1B1 /* Assets.xcassets */; };
+		8CBE12EE1E5B343C0095E1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE12EC1E5B343C0095E1B1 /* LaunchScreen.storyboard */; };
+		8CBE12F91E5B343C0095E1B1 /* JuniorArithmeticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE12F81E5B343C0095E1B1 /* JuniorArithmeticsTests.swift */; };
+		8CBE13041E5B343C0095E1B1 /* JuniorArithmeticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE13031E5B343C0095E1B1 /* JuniorArithmeticsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CBE12F51E5B343C0095E1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBE12D81E5B343B0095E1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CBE12DF1E5B343B0095E1B1;
+			remoteInfo = JuniorArithmetics;
+		};
+		8CBE13001E5B343C0095E1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBE12D81E5B343B0095E1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CBE12DF1E5B343B0095E1B1;
+			remoteInfo = JuniorArithmetics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CBE12E01E5B343B0095E1B1 /* JuniorArithmetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuniorArithmetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBE12E31E5B343B0095E1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CBE12E51E5B343B0095E1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CBE12E81E5B343B0095E1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CBE12EA1E5B343C0095E1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CBE12ED1E5B343C0095E1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CBE12EF1E5B343C0095E1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBE12F41E5B343C0095E1B1 /* JuniorArithmeticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuniorArithmeticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBE12F81E5B343C0095E1B1 /* JuniorArithmeticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorArithmeticsTests.swift; sourceTree = "<group>"; };
+		8CBE12FA1E5B343C0095E1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBE12FF1E5B343C0095E1B1 /* JuniorArithmeticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuniorArithmeticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBE13031E5B343C0095E1B1 /* JuniorArithmeticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorArithmeticsUITests.swift; sourceTree = "<group>"; };
+		8CBE13051E5B343C0095E1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CBE12DD1E5B343B0095E1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE12F11E5B343C0095E1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE12FC1E5B343C0095E1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBE12D71E5B343B0095E1B1 = {
+			isa = PBXGroup;
+			children = (
+				8CBE12E21E5B343B0095E1B1 /* JuniorArithmetics */,
+				8CBE12F71E5B343C0095E1B1 /* JuniorArithmeticsTests */,
+				8CBE13021E5B343C0095E1B1 /* JuniorArithmeticsUITests */,
+				8CBE12E11E5B343B0095E1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBE12E11E5B343B0095E1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBE12E01E5B343B0095E1B1 /* JuniorArithmetics.app */,
+				8CBE12F41E5B343C0095E1B1 /* JuniorArithmeticsTests.xctest */,
+				8CBE12FF1E5B343C0095E1B1 /* JuniorArithmeticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBE12E21E5B343B0095E1B1 /* JuniorArithmetics */ = {
+			isa = PBXGroup;
+			children = (
+				8CBE12E31E5B343B0095E1B1 /* AppDelegate.swift */,
+				8CBE12E51E5B343B0095E1B1 /* ViewController.swift */,
+				8CBE12E71E5B343B0095E1B1 /* Main.storyboard */,
+				8CBE12EA1E5B343C0095E1B1 /* Assets.xcassets */,
+				8CBE12EC1E5B343C0095E1B1 /* LaunchScreen.storyboard */,
+				8CBE12EF1E5B343C0095E1B1 /* Info.plist */,
+			);
+			path = JuniorArithmetics;
+			sourceTree = "<group>";
+		};
+		8CBE12F71E5B343C0095E1B1 /* JuniorArithmeticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBE12F81E5B343C0095E1B1 /* JuniorArithmeticsTests.swift */,
+				8CBE12FA1E5B343C0095E1B1 /* Info.plist */,
+			);
+			path = JuniorArithmeticsTests;
+			sourceTree = "<group>";
+		};
+		8CBE13021E5B343C0095E1B1 /* JuniorArithmeticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBE13031E5B343C0095E1B1 /* JuniorArithmeticsUITests.swift */,
+				8CBE13051E5B343C0095E1B1 /* Info.plist */,
+			);
+			path = JuniorArithmeticsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CBE12DF1E5B343B0095E1B1 /* JuniorArithmetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBE13081E5B343C0095E1B1 /* Build configuration list for PBXNativeTarget "JuniorArithmetics" */;
+			buildPhases = (
+				8CBE12DC1E5B343B0095E1B1 /* Sources */,
+				8CBE12DD1E5B343B0095E1B1 /* Frameworks */,
+				8CBE12DE1E5B343B0095E1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuniorArithmetics;
+			productName = JuniorArithmetics;
+			productReference = 8CBE12E01E5B343B0095E1B1 /* JuniorArithmetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CBE12F31E5B343C0095E1B1 /* JuniorArithmeticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBE130B1E5B343C0095E1B1 /* Build configuration list for PBXNativeTarget "JuniorArithmeticsTests" */;
+			buildPhases = (
+				8CBE12F01E5B343C0095E1B1 /* Sources */,
+				8CBE12F11E5B343C0095E1B1 /* Frameworks */,
+				8CBE12F21E5B343C0095E1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBE12F61E5B343C0095E1B1 /* PBXTargetDependency */,
+			);
+			name = JuniorArithmeticsTests;
+			productName = JuniorArithmeticsTests;
+			productReference = 8CBE12F41E5B343C0095E1B1 /* JuniorArithmeticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CBE12FE1E5B343C0095E1B1 /* JuniorArithmeticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBE130E1E5B343C0095E1B1 /* Build configuration list for PBXNativeTarget "JuniorArithmeticsUITests" */;
+			buildPhases = (
+				8CBE12FB1E5B343C0095E1B1 /* Sources */,
+				8CBE12FC1E5B343C0095E1B1 /* Frameworks */,
+				8CBE12FD1E5B343C0095E1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBE13011E5B343C0095E1B1 /* PBXTargetDependency */,
+			);
+			name = JuniorArithmeticsUITests;
+			productName = JuniorArithmeticsUITests;
+			productReference = 8CBE12FF1E5B343C0095E1B1 /* JuniorArithmeticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CBE12D81E5B343B0095E1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = md13aba;
+				TargetAttributes = {
+					8CBE12DF1E5B343B0095E1B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YC8L9846G8;
+					};
+					8CBE12F31E5B343C0095E1B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CBE12DF1E5B343B0095E1B1;
+					};
+					8CBE12FE1E5B343C0095E1B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CBE12DF1E5B343B0095E1B1;
+					};
+				};
+			};
+			buildConfigurationList = 8CBE12DB1E5B343B0095E1B1 /* Build configuration list for PBXProject "JuniorArithmetics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CBE12D71E5B343B0095E1B1;
+			productRefGroup = 8CBE12E11E5B343B0095E1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBE12DF1E5B343B0095E1B1 /* JuniorArithmetics */,
+				8CBE12F31E5B343C0095E1B1 /* JuniorArithmeticsTests */,
+				8CBE12FE1E5B343C0095E1B1 /* JuniorArithmeticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CBE12DE1E5B343B0095E1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE12EE1E5B343C0095E1B1 /* LaunchScreen.storyboard in Resources */,
+				8CBE12EB1E5B343C0095E1B1 /* Assets.xcassets in Resources */,
+				8CBE12E91E5B343B0095E1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE12F21E5B343C0095E1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE12FD1E5B343C0095E1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBE12DC1E5B343B0095E1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE12E61E5B343B0095E1B1 /* ViewController.swift in Sources */,
+				8CBE12E41E5B343B0095E1B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE12F01E5B343C0095E1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE12F91E5B343C0095E1B1 /* JuniorArithmeticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE12FB1E5B343C0095E1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE13041E5B343C0095E1B1 /* JuniorArithmeticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CBE12F61E5B343C0095E1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CBE12DF1E5B343B0095E1B1 /* JuniorArithmetics */;
+			targetProxy = 8CBE12F51E5B343C0095E1B1 /* PBXContainerItemProxy */;
+		};
+		8CBE13011E5B343C0095E1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CBE12DF1E5B343B0095E1B1 /* JuniorArithmetics */;
+			targetProxy = 8CBE13001E5B343C0095E1B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CBE12E71E5B343B0095E1B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBE12E81E5B343B0095E1B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CBE12EC1E5B343C0095E1B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBE12ED1E5B343C0095E1B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CBE13061E5B343C0095E1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CBE13071E5B343C0095E1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CBE13091E5B343C0095E1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JuniorArithmetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XepaCorp.JuniorArithmetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8CBE130A1E5B343C0095E1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JuniorArithmetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XepaCorp.JuniorArithmetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8CBE130C1E5B343C0095E1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JuniorArithmeticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XepaCorp.JuniorArithmeticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuniorArithmetics.app/JuniorArithmetics";
+			};
+			name = Debug;
+		};
+		8CBE130D1E5B343C0095E1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JuniorArithmeticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XepaCorp.JuniorArithmeticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuniorArithmetics.app/JuniorArithmetics";
+			};
+			name = Release;
+		};
+		8CBE130F1E5B343C0095E1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JuniorArithmeticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XepaCorp.JuniorArithmeticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JuniorArithmetics;
+			};
+			name = Debug;
+		};
+		8CBE13101E5B343C0095E1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JuniorArithmeticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XepaCorp.JuniorArithmeticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JuniorArithmetics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CBE12DB1E5B343B0095E1B1 /* Build configuration list for PBXProject "JuniorArithmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBE13061E5B343C0095E1B1 /* Debug */,
+				8CBE13071E5B343C0095E1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBE13081E5B343C0095E1B1 /* Build configuration list for PBXNativeTarget "JuniorArithmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBE13091E5B343C0095E1B1 /* Debug */,
+				8CBE130A1E5B343C0095E1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CBE130B1E5B343C0095E1B1 /* Build configuration list for PBXNativeTarget "JuniorArithmeticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBE130C1E5B343C0095E1B1 /* Debug */,
+				8CBE130D1E5B343C0095E1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CBE130E1E5B343C0095E1B1 /* Build configuration list for PBXNativeTarget "JuniorArithmeticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBE130F1E5B343C0095E1B1 /* Debug */,
+				8CBE13101E5B343C0095E1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CBE12D81E5B343B0095E1B1 /* Project object */;
+}
