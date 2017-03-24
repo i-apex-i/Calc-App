@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nHX-Rh-umP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--rightChoice-->
+        <scene sceneID="0VC-Zb-6y6">
+            <objects>
+                <viewController title="rightChoice" id="N3d-Ut-AzI" customClass="AnotherViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LSd-z6-PQ5"/>
+                        <viewControllerLayoutGuide type="bottom" id="lpu-ns-bZq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AIm-qX-emN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_325225.png" translatesAutoresizingMaskIntoConstraints="NO" id="yI8-pI-4Lg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y80-jI-eDn">
+                                <rect key="frame" x="102" y="99" width="117" height="117"/>
+                                <state key="normal" backgroundImage="play_again.png"/>
+                                <connections>
+                                    <segue destination="nHX-Rh-umP" kind="show" id="uRt-cQ-ubb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="pBe-9h-VBi">
+                                <rect key="frame" x="159" y="28" width="60" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="p73-rf-1qd">
+                                <rect key="frame" x="20" y="186" width="35" height="35"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="toC-6U-LRr">
+                                <rect key="frame" x="290" y="261" width="60" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="OAb-Bz-C19">
+                                <rect key="frame" x="74" y="277" width="60" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="m6u-Nl-pRC">
+                                <rect key="frame" x="290" y="395" width="35" height="35"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correct" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-FK-x5o">
+                                <rect key="frame" x="100" y="224" width="120" height="21"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="b7W-7i-pdD">
+                                <rect key="frame" x="25" y="28" width="41" height="41"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="FC8-wo-mHO">
+                                <rect key="frame" x="256" y="148" width="44" height="44"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="yPk-gh-HLS">
+                                <rect key="frame" x="204" y="298" width="44" height="44"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7qf-mF-vVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-417" y="313"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6gn-Ni-Jkf">
+            <objects>
+                <viewController id="nHX-Rh-umP" customClass="ViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Pw-ll-4dI"/>
+                        <viewControllerLayoutGuide type="bottom" id="pgt-Im-UL0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BEV-Nq-bWm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_325225.png" translatesAutoresizingMaskIntoConstraints="NO" id="GXd-dF-a6F">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKB-2d-jMM">
+                                <rect key="frame" x="20" y="28" width="280" height="31"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b6o-wJ-vFO">
+                                <rect key="frame" x="20" y="67" width="280" height="127"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pwf-8C-EKP">
+                                        <rect key="frame" x="13" y="13" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn1:" destination="nHX-Rh-umP" eventType="touchUpInside" id="WKH-bz-Try"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpO-ET-jeO">
+                                        <rect key="frame" x="65" y="13" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn2:" destination="nHX-Rh-umP" eventType="touchUpInside" id="g4x-17-x2x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fta-sP-JJd">
+                                        <rect key="frame" x="116" y="13" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn3:" destination="nHX-Rh-umP" eventType="touchUpInside" id="xSR-FG-tD2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="668-bZ-Bqn">
+                                        <rect key="frame" x="167" y="13" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn4:" destination="nHX-Rh-umP" eventType="touchUpInside" id="7q7-Mx-g7D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5K-68-wS2">
+                                        <rect key="frame" x="218" y="13" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn5:" destination="nHX-Rh-umP" eventType="touchUpInside" id="1FZ-dh-fWO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apF-d5-EhR">
+                                        <rect key="frame" x="13" y="64" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn6:" destination="nHX-Rh-umP" eventType="touchUpInside" id="hVd-Kj-T3P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzG-cZ-lpQ">
+                                        <rect key="frame" x="65" y="64" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn7:" destination="nHX-Rh-umP" eventType="touchUpInside" id="OqF-2o-hXY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQg-4e-KqY">
+                                        <rect key="frame" x="167" y="64" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn9:" destination="nHX-Rh-umP" eventType="touchUpInside" id="tu3-Zf-eOY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bET-LW-Dxj">
+                                        <rect key="frame" x="218" y="64" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn0:" destination="nHX-Rh-umP" eventType="touchUpInside" id="sQD-WY-plV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6v-cU-rfC">
+                                        <rect key="frame" x="116" y="64" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Button" backgroundImage="numberimage.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Btn8:" destination="nHX-Rh-umP" eventType="touchUpInside" id="aas-Jo-FgD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DdW-lE-fL1">
+                                <rect key="frame" x="40" y="440" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZUn-hg-eeX">
+                                        <rect key="frame" x="0.0" y="8" width="240" height="128"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="n3j-d6-c1u" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="44" y="40" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="XVR-nU-ipV" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="71" y="37" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="ABJ-nx-s47" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="100" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vDD-nN-3k1" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="130" y="38" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="EFZ-yW-iFq" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="159" y="40" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="aY9-fh-2Pz" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="44" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="FJ6-AM-M6a" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="73" y="47" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Sm-Wb-eLi" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="101" y="50" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="boX-Kh-3sZ" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="131" y="47" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="AjL-3l-5Ud" customClass="DraggedAppleView" customModule="quiz" customModuleProvider="target">
+                                        <rect key="frame" x="161" y="45" width="40" height="40"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="OKB-2d-jMM" secondAttribute="leading" id="A5Y-IO-JNk"/>
+                            <constraint firstItem="OKB-2d-jMM" firstAttribute="centerX" secondItem="BEV-Nq-bWm" secondAttribute="centerX" id="Emi-4Y-QPC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OKB-2d-jMM" secondAttribute="trailing" id="PHh-rn-2DH"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="QuestionLabel" destination="OKB-2d-jMM" id="Qdn-oa-cal"/>
+                        <outlet property="heading" destination="OKB-2d-jMM" id="0Sj-kw-3MP"/>
+                        <outlet property="options" destination="b6o-wJ-vFO" id="SDO-LE-u2p"/>
+                        <outlet property="plate" destination="DdW-lE-fL1" id="M9Z-FL-906"/>
+                        <outlet property="wallpaper" destination="GXd-dF-a6F" id="QWf-GI-cRL"/>
+                        <outletCollection property="Buttons" destination="Pwf-8C-EKP" collectionClass="NSMutableArray" id="Qe9-61-H9e"/>
+                        <outletCollection property="Buttons" destination="SpO-ET-jeO" collectionClass="NSMutableArray" id="QMJ-jF-JkN"/>
+                        <outletCollection property="Buttons" destination="fta-sP-JJd" collectionClass="NSMutableArray" id="pOm-Ea-Nol"/>
+                        <outletCollection property="Buttons" destination="668-bZ-Bqn" collectionClass="NSMutableArray" id="JPI-MX-ihK"/>
+                        <outletCollection property="Buttons" destination="D5K-68-wS2" collectionClass="NSMutableArray" id="ZEr-vh-ZQm"/>
+                        <outletCollection property="Buttons" destination="apF-d5-EhR" collectionClass="NSMutableArray" id="sdU-Bk-wl1"/>
+                        <outletCollection property="Buttons" destination="SzG-cZ-lpQ" collectionClass="NSMutableArray" id="dUZ-UX-WzI"/>
+                        <outletCollection property="Buttons" destination="V6v-cU-rfC" collectionClass="NSMutableArray" id="Gzo-yo-96C"/>
+                        <outletCollection property="Buttons" destination="YQg-4e-KqY" collectionClass="NSMutableArray" id="cCu-Xe-B2X"/>
+                        <outletCollection property="Buttons" destination="bET-LW-Dxj" collectionClass="NSMutableArray" id="VgA-Dw-kg7"/>
+                        <segue destination="N3d-Ut-AzI" kind="presentation" identifier="RightSegueway" id="UzS-yo-bii"/>
+                        <segue destination="sAL-RC-6nR" kind="presentation" identifier="WrongSegueway" id="FZw-0C-hbp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gxx-t2-b8V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="313"/>
+        </scene>
+        <!--wrongChoice-->
+        <scene sceneID="lhP-Ri-eLw">
+            <objects>
+                <viewController title="wrongChoice" id="sAL-RC-6nR" customClass="OtherViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ksi-6v-HdF"/>
+                        <viewControllerLayoutGuide type="bottom" id="8bC-Cg-BAy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DeB-ef-vWg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_325225.png" translatesAutoresizingMaskIntoConstraints="NO" id="sFI-OP-0oT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWA-al-JzP">
+                                <rect key="frame" x="102" y="99" width="117" height="117"/>
+                                <state key="normal" backgroundImage="play_again.png"/>
+                                <connections>
+                                    <segue destination="nHX-Rh-umP" kind="show" id="r2y-dS-qfi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMV-Vz-peU">
+                                <rect key="frame" x="88" y="224" width="145" height="21"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jkA-cd-faS"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZJh-zH-uI1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531" y="313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_325225.png" width="375" height="665"/>
+        <image name="apple.png" width="256" height="256"/>
+        <image name="numberimage.png" width="256" height="256"/>
+        <image name="plate_white.png" width="1600" height="1200"/>
+        <image name="play_again.png" width="216" height="218"/>
+        <image name="star_kids.png" width="256" height="256"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="uRt-cQ-ubb"/>
+    </inferredMetricsTieBreakers>
+</document>
